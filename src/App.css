@@ -1,0 +1,75 @@
+.container{
+    margin: auto;
+    max-width: 600px;
+}
+body {
+   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;  
+  }
+
+.done{
+    text-decoration: line-through;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+  
+.item{
+    font-size: 24px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    overflow-y: hidden;
+    
+    
+}
+
+.card{
+box-shadow: 0 2px 7px 1px  rgba(0, 0, 0, 0.2);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addButton{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background-color: skyblue;
+    color: aliceblue;
+    border-radius: 25px;
+}
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardModal{
+    padding: 20px;
+    background-color: white;
+}
+
+.hide{
+    display: none;
+    
+}
